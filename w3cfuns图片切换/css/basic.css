@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,div,span{
+	margin:0;
+	padding:0;
+}
+ul{list-style:none;}
+.main{
+	position:relative;
+	margin:50px auto 0;
+	width:700px;
+	height:438px;
+	overflow:hidden;
+}
+.main ul li{float:left;}
+.main_pic{
+	position:absolute;
+	left:0;
+	top:0;
+}
+.main_pic_num{
+	position:absolute;
+	bottom:20px;
+	left:20px;
+	padding-top:20px;
+}
+.main_pic_num li{
+    margin-left: 10px;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    text-align: center;
+	background:#666;
+	color:#fff;
+    border: 1px solid #000;
+}
